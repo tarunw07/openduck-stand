@@ -1,0 +1,30 @@
+# Checkpoints
+duck_checkpoints/
+duck_checkpoints_pd/
+duck_dance2_checkpoints/
+duck_best_model/
+*.pth
+*.zip
+
+# TensorBoard logs
+duck_tensorboard/
+duck_tensorboard_pd/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
