@@ -34,7 +34,7 @@ CHECKPOINT_DIR = 'duck_dance2_checkpoints'
 os.makedirs(CHECKPOINT_DIR, exist_ok=True)
 
 # 1. Load Model
-model = mujoco.MjModel.from_xml_path(r'D:\coding\open_duck\Open_Duck_Mini\mini_bdx\robots\open_duck_mini_v2\scene.xml')
+model = mujoco.MjModel.from_xml_path('./robot/scene.xml')
 data = mujoco.MjData(model)
 
 # TARGET STANDING POSE - from test_standing_pose.py experiments

@@ -52,9 +52,7 @@ class DuckStandEnv(gym.Env):
         super().__init__()
         
         # Load MuJoCo model
-        self.model = mujoco.MjModel.from_xml_path(
-            r'D:\coding\open_duck\Open_Duck_Mini\mini_bdx\robots\open_duck_mini_v2\scene.xml'
-        )
+        self.model = mujoco.MjModel.from_xml_path('./robot/scene.xml')
         self.data = mujoco.MjData(self.model)
         
         # Action space: 16 actuators, values in [-1, 1]

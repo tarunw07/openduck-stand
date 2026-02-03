@@ -60,9 +60,7 @@ class DuckStandEnv(gym.Env):
         self.randomize_reset = randomize_reset # Store randomization setting
         
         # Load MuJoCo model
-        self.model = mujoco.MjModel.from_xml_path(
-            r'D:\coding\open_duck\Open_Duck_Mini\mini_bdx\robots\open_duck_mini_v2\scene.xml'
-        )
+        self.model = mujoco.MjModel.from_xml_path('./robot/scene.xml')
         self.data = mujoco.MjData(self.model)
         
         # Action space: 10 actuators (Legs only), values in [-1, 1]
