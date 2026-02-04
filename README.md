@@ -29,7 +29,11 @@ A simple policy gradient implementation from scratch without any external RL lib
 
 #### Demo
 <!-- Add video here -->
-> 🎥 *Coming soon...*
+
+
+
+https://github.com/user-attachments/assets/0552a4a3-a725-438a-813a-8fdd3ca32daf
+
 
 ---
 
