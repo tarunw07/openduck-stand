@@ -71,7 +71,11 @@ PPO combined with a PD controller for smoother joint tracking.
 
 #### Demo
 <!-- Add video here -->
-> 🎥 *Coming soon...*
+
+
+https://github.com/user-attachments/assets/838fcade-4cd6-4861-99d5-d0890a369bc8
+
+
 
 ---
 
